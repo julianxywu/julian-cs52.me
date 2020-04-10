@@ -2,7 +2,7 @@
 # 09 April 2019
 
 Link to webpage:
-https://dartmouth-cs52-20s.github.io/lab1-landingpage-julianxywu/
+http://julian-cs52.me/
 
 I adapted Studio Ghibli's site, along with MomoFuku's navigation bar, to create a website that displays cute baby animals!
 Most of what I wanted to accomplish worked. The responsive webpage works pretty well, except there are some flexboxes that are just slightly off-centered. Also, some of the font sizes are a little small asd well!
