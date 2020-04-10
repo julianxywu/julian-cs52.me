@@ -1,11 +1,102 @@
 <!DOCTYPE html>
-<html>
-    
-<head>
-    <title>julian-cs52.me</title>
+<html lang="en">
+
+<!-- HEAD -->
+<head> 
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>julianxywu.me</title>
 </head>
 
+<!-- BODY: Website format adapted from www.studioghibli.com.au -->
+<!-- Navigation bar adapted from www.momofuku.com -->
+<!-- Pictures taken from www.pixabay.com -->
 <body>
-    a webpage
+  <div class="container">
+    <!-- Picture on top -->
+    <div class="container topBackground">
+      <!-- <img id="topImage" src="Images/Mouse.jpg"/> -->
+    </div>
+    <!-- Title text and introduction -->
+    <div class="container title">
+      <div class="titleContent">
+        <h1 id="titleText">The Cute Baby Animal Collection</h1>
+        <p> This a place to see and admire some of the cutest baby animals on planet Earth!</p>
+      </div>
+    </div>
+    <!-- Navigation bar on the left side -->
+    <div class="navigationBar">
+      <div class="first-navBar">
+        <div class="container logo">       
+           <div class="logo"></div>
+        </div>
+        <!-- Menu Button on left side -->
+        <div class="menu">
+          <!-- Got the menu button from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_icon_buttons -->
+          <button id="menu button" class="menuButton"><i class="fa fa-bars"></i>&nbsp; Menu</button>
+        </div>
+        <div class="container buttons">
+          <ul>
+            <li>
+              <a href="http://julianxywu.me"  class="home-button">
+              <h2>Home</h2>
+              </a>
+            </li>
+            <li>
+              <a href="#"  class="animals-button">
+                <h2>Animals</h2>
+              </a>
+            </li>
+            <li>
+              <a href="#"  class="contact-button">
+                <h2>Contact</h2>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- Body container with all the animal pictures -->
+    <div class="container body">
+      <div class="canvas">
+        <div class="animalFrame">
+          <img class="animalPicture" src="Images/Chick.jpg" title="Chick"/>
+        </div>
+        <div class="animalFrame">
+          <img class="animalPicture" src="Images/Hedgehog.jpg" title="Hedgehog"/>
+        </div>
+        <div class="animalFrame">
+          <img class="animalPicture" src="Images/Cat.jpg" title="Cat"/>
+        </div>
+        <div class="animalFrame">
+          <img class="animalPicture" src="Images/Duck.jpg" title="Duck"/>
+        </div>
+        <div class="animalFrame">
+          <img class="animalPicture" src="Images/Dog.jpg" title="Dog"/>
+        </div>
+        <div class="animalFrame">
+           <img class="animalPicture" src="Images/Fox.jpg" title="Fox"/>
+        </div>
+        <div class="animalFrame">
+          <img class="animalPicture" src="Images/Crocodile.jpg" title="Crocodile"/>
+        </div>
+        <div class="animalFrame">
+          <img class="animalPicture" src="Images/Monkey.jpg" title="Monkey"/>
+        </div>
+        <div class="animalFrame">
+          <img class="animalPicture" src="Images/Elephant.jpg" title="Elephant"/>
+        </div>
+      </div>
+    </div>
+    <!-- Footer container with text input -->
+    <div class="container footer">
+      <p>Love&nbsp;<strong>Cute Baby Animals</strong>&nbsp;as much as we do? Leave your email and we'll send you a personal cute baby animal picture!</p>
+      <div class="text container">
+        <input type="name" class="name input" maxlength="40" placeholder="Enter your name" required> <!-- Input for Name -->
+        <input type="email" class="email input" maxlength="100" placeholder="Enter your email" required> <!-- Input for Email -->
+        <button type="submit" id="submit button" class="submitButton">Submit</button> <!-- Submit Button -->
+      </div>
+    </div>
+  </div>
 </body>
 </html>
